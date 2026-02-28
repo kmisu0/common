@@ -1,0 +1,16 @@
+# Executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# MinGW/Makefiles
+Makefile
