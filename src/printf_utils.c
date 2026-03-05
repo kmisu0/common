@@ -40,6 +40,8 @@ int printHeader(const char *buffer, size_t rowWidth, const char fillingChar)
     message[leftSpace - 1] = ' ';
     memcpy(message + leftSpace, buffer, bufferLen);
     message[leftSpace + bufferLen] = ' ';
+
+    printf("%s", message);
     
     return 0;
 }
